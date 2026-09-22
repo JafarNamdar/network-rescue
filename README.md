@@ -2,7 +2,7 @@
 
 A supply chain network design game for senior undergraduate Supply Chain Management students.
 Teams act as consultants, analyze an optimization model of a UK distribution network,
-stress-test it, audit it, and present a strategic recommendation to "the board."
+test it against disruptions and demand uncertainty, and recommend strategies in a 7–8 minute presentation.
 
 Adapted by **Jafar Namdar** (Eli Broad College of Business, Michigan State University) for teaching purposes,
 from the [Gurobi Supply Network Design example](https://www.gurobi.com/jupyter_models/supply-network-design/).
@@ -31,16 +31,15 @@ First click can take 2–5 minutes to build (it's setting up a private Python en
 | Shows the briefing, questions, and control panel | ✅ | ✅ |
 | Shows Python code | ✅ | ❌ |
 | Type answers into the notebook | ✅ | ❌ |
-| Round 4 bonus (code extension) | ✅ | ❌ |
 | Best for | Completing and submitting the assignment | Quickly running what-if scenarios in class or during your presentation |
 
 ## How to play (Work mode)
 
-1. Read **Part 1 — Briefing Book**.
-2. Run the two code cells in **Part 2 — Launch the Model** (click a cell, then **Shift + Enter**). A control panel appears.
+1. Read **Your mission** and **Key terms** at the top.
+2. Run the two code cells under **Launch the Model** (click a cell, then **Shift + Enter**). A control panel appears.
 3. Expand the panels, change the values a question asks for, and click **Solve with Gurobi**.
-4. To reset to the baseline, re-run the second cell in Part 2 (in Simulator mode, refresh the page).
-5. Type your answers in the ✏️ cells under each question and fill in the Scenario Log.
+4. To reset to the baseline, re-run the second code cell (in Simulator mode, refresh the page).
+5. Type your answers in the ✏️ cells under each question and fill in the tables.
 
 ## ⚠️ Save your work — Binder does not
 
