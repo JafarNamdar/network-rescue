@@ -1,7 +1,8 @@
-gurobipy>=12
-pandas
+notebook
+voila
+ipywidgets
 numpy
+pandas
 matplotlib
 networkx
-ipywidgets>=8
-voila
+gurobipy
