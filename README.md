@@ -8,29 +8,50 @@ Adapted by **Jafar Namdar** (Eli Broad College of Business, Michigan State Unive
 from the [Gurobi Supply Network Design example](https://www.gurobi.com/jupyter_models/supply-network-design/).
 For educational use only.
 
-## ▶️ Launch the game (no installation needed)
+## 🎮 Play the game
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/USERNAME/REPO/HEAD?labpath=Network_Rescue_Game_student.ipynb)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/REPO/blob/main/Network_Rescue_Game_student.ipynb)
+The game runs in two modes. Use **Work mode** for the assignment.
 
-Click either badge. Binder can take 1–3 minutes to start the first time.
+**Work mode — full notebook (type your answers here):** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JafarNamdar/network-rescue/HEAD?labpath=Network_Rescue_Game_student.ipynb)
 
-## How to play
+**Simulator mode — code-free control panel (Voila):** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JafarNamdar/network-rescue/HEAD?urlpath=voila%2Frender%2FNetwork_Rescue_Game_student.ipynb)
 
-1. Open the notebook and read **Part 1 — Briefing Book**.
-2. Run the two cells in **Part 2 — Launch the Model**. A control panel appears.
-3. Adjust the panels, click **Solve with Gurobi**, and answer the questions round by round.
-4. To reset to the baseline, re-run the second cell in Part 2.
+If the badges don't render on your device, use these direct links:
+
+- Work mode: https://mybinder.org/v2/gh/JafarNamdar/network-rescue/HEAD?labpath=Network_Rescue_Game_student.ipynb
+- Simulator mode: https://mybinder.org/v2/gh/JafarNamdar/network-rescue/HEAD?urlpath=voila%2Frender%2FNetwork_Rescue_Game_student.ipynb
+- Colab (saves to your Google Drive): https://colab.research.google.com/github/JafarNamdar/network-rescue/blob/main/Network_Rescue_Game_student.ipynb
+
+First click can take 2–5 minutes to build (it's setting up a private Python environment with the Gurobi optimizer just for you). That's normal, just wait. After that it usually loads in about a minute.
+
+### Which mode should I use?
+
+| | Work mode (Jupyter) | Simulator mode (Voila) |
+|---|---|---|
+| Shows the briefing, questions, and control panel | ✅ | ✅ |
+| Shows Python code | ✅ | ❌ |
+| Type answers into the notebook | ✅ | ❌ |
+| Round 4 bonus (code extension) | ✅ | ❌ |
+| Best for | Completing and submitting the assignment | Quickly running what-if scenarios in class or during your presentation |
+
+## How to play (Work mode)
+
+1. Read **Part 1 — Briefing Book**.
+2. Run the two code cells in **Part 2 — Launch the Model** (click a cell, then **Shift + Enter**). A control panel appears.
+3. Expand the panels, change the values a question asks for, and click **Solve with Gurobi**.
+4. To reset to the baseline, re-run the second cell in Part 2 (in Simulator mode, refresh the page).
+5. Type your answers in the ✏️ cells under each question and fill in the Scenario Log.
 
 ## ⚠️ Save your work — Binder does not
 
 Binder sessions are temporary. They shut down after about 10 minutes of inactivity and **all changes are lost**.
 
 - Save often with **File → Download** (downloads your `.ipynb`).
-- To continue later, relaunch Binder and upload your saved notebook (drag it into the file browser).
-- Prefer Colab if you want your work saved automatically to Google Drive (**File → Save a copy in Drive**).
+- To continue later, relaunch Work mode and drag your saved notebook into the file browser on the left.
+- Prefer Colab if you want your work saved automatically (**File → Save a copy in Drive**).
 
-## Technical notes
+## Notes for the instructor
 
 - Uses the free, size-limited Gurobi license bundled with `gurobipy` from pip. This model is well within the limit, so no license setup is needed.
-- Dependencies are listed in `requirements.txt`; Binder installs them automatically.
+- Binder's free tier is meant for light use: fine for a class over a few days, not for hundreds of simultaneous users.
+- Instructor materials (rubric and answer key) are intentionally **not** in this public repo.

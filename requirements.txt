@@ -4,3 +4,4 @@ numpy
 matplotlib
 networkx
 ipywidgets>=8
+voila
