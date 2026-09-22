@@ -1,0 +1,6 @@
+gurobipy>=12
+pandas
+numpy
+matplotlib
+networkx
+ipywidgets>=8
